@@ -1,0 +1,26 @@
+{
+  "name": "bot-whatsapp",
+  "version": "0.1.0",
+  "author": "Guilhermee19",
+  "description": "",
+  "main": "src/app.ts",
+  "scripts": {
+    "start": "ts-node src/app.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Guilhermee19/bot-whatsapp.git"
+  },
+  "keywords": [],
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Guilhermee19/bot-whatsapp/issues"
+  },
+  "homepage": "https://github.com/Guilhermee19/bot-whatsapp#readme",
+  "dependencies": {
+    "@open-wa/wa-automate": "^4.71.11",
+    "puppeteer-core": "^22.9.0",
+    "ts-node": "^10.9.2"
+  }
+}
